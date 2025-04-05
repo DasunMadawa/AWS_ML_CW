@@ -14,72 +14,94 @@
     />
     <style>
       body {
-        background: #1c1c1e;
-        color: #ffffff;
-        font-family: "Poppins", sans-serif;
+        background-color: #18181b;
+        color: #eaeaea;
+        font-family: 'Poppins', sans-serif;
       }
+      
       .navbar {
-        background: #121212;
-        padding: 16px;
-        box-shadow: 0 2px 8px rgba(0, 0, 0, 0.5);
+        background-color: #111114;
+        padding: 18px;
+        box-shadow: 0 3px 10px rgba(0, 255, 153, 0.05);
       }
+      
       .navbar-brand {
-        font-weight: 600;
-        font-size: 18px;
-        color: #00ffaa !important;
+        font-weight: 700;
+        font-size: 20px;
+        color: #5fffd0 !important;
+        letter-spacing: 1px;
       }
+      
       .container {
-        max-width: 550px;
-        margin-top: 50px;
+        max-width: 600px;
+        margin-top: 60px;
+        padding: 0 15px;
       }
+      
       .card {
-        background: #2a2a2c;
-        border-radius: 12px;
-        padding: 24px;
-        box-shadow: 0 0 12px rgba(0, 255, 170, 0.2);
+        background: #222224;
+        border-radius: 14px;
+        padding: 26px;
+        box-shadow: 0 0 18px rgba(95, 255, 208, 0.15);
       }
+      
       .form-label {
-        font-weight: 500;
+        font-weight: 600;
+        color: #d0ffd6;
       }
+      
       .form-control,
       .form-select {
-        background: #1f1f1f;
+        background: #2a2a2e;
         color: #ffffff;
-        border: 1px solid #00ffaa;
-        border-radius: 8px;
+        border: 1px solid #5fffd0;
+        border-radius: 10px;
+        padding: 10px 12px;
+        font-size: 15px;
       }
+      
       .form-control:focus,
       .form-select:focus {
-        background: #1f1f1f;
+        background: #2a2a2e;
         color: #ffffff;
-        border-color: #00ffaa;
-        box-shadow: 0 0 5px #00ffaa;
+        border-color: #5fffd0;
+        box-shadow: 0 0 8px #5fffd044;
       }
+      
       .btn {
         width: 100%;
-        padding: 12px;
-        font-size: 16px;
-        font-weight: bold;
-        background: none;
-        border: 2px solid #00ffaa;
-        color: #00ffaa;
-        border-radius: 8px;
-        transition: all 0.3s ease;
+        padding: 13px;
+        font-size: 15px;
+        font-weight: 600;
+        background-color: transparent;
+        border: 2px solid #5fffd0;
+        color: #5fffd0;
+        border-radius: 10px;
+        transition: all 0.25s ease;
       }
+      
       .btn:hover {
-        background: #00ffaa;
-        color: #000;
+        background-color: #5fffd0;
+        color: #111;
       }
+      
       .alert {
-        background-color: #121212;
-        border: 1px solid #00ffaa;
-        border-radius: 6px;
-        margin-top: 16px;
+        background-color: #1a1a1c;
+        border: 1px solid #5fffd0;
+        border-radius: 8px;
+        padding: 12px 18px;
+        margin-top: 20px;
+        color: #b0ffcd;
       }
+      
       .spinner-border {
-        border: 2px solid #00ffaa;
+        width: 1.5rem;
+        height: 1.5rem;
+        border: 3px solid #5fffd0;
         border-right-color: transparent;
+        border-radius: 50%;
       }
+      
     </style>
   </head>
   <body>
